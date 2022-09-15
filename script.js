@@ -16,7 +16,7 @@ function sumCharge(){
 const beverages = document.getElementsByClassName('beverage');
 let beverageCharge = [];
 //순서대로 음료 가격
-function getAbleBuyList(){
+function getBverageCharge(){
   for(let i=0; i<beverages.length; i++){
     beverageCharge.push(beverages[i].value);
   }
@@ -55,6 +55,6 @@ function printResult(){
 }
 
 sumCharge();
-getAbleBuyList();
+getBverageCharge();
 getBeverageName();
 printResult();
