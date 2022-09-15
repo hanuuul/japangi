@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자판기</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <h3 class="title">자판기</h3>
+        <div class="japangi_wrap">
+        <div class="beverages">
+            <ul>
+            <li class="beverage" id="cidar" value="1300">
+                <h3 class="name">사이다</h3>
+                <span>1300</span>원
+            </li>
+            <li class="beverage" id="cola" value="1500">
+                <h3 class="name">콜라</h3>
+                <span>1500</span>원
+            </li>
+            <li class="beverage" id="fanta" value="800">
+                <h3 class="name">환타</h3>
+                <span>800</span>원
+            </li>
+            </ul>
+        </div>
+        
+        <div class="chargeBtns">
+            <div class="chargeBtn">100</div>
+            <div class="chargeBtn">500</div>
+            <div class="chargeBtn">1000</div>
+            <div class="chargeBtn">5000</div>
+        </div>
+        
+        <div class="result_top">
+            <div id="resultBtn">결과출력</div>
+            <div id="amount">0</div>
+        </div>
+            <div id="resultArea"></div>
+        </div>
+    </div>
+</body>
+</html>
